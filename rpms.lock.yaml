@@ -53,13 +53,13 @@ arches:
     name: jq
     evr: 1.6-15.el9
     sourcerpm: jq-1.6-15.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.18.1.el9_6.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.19.1.el9_6.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 3681841
-    checksum: sha256:67dd8cdd0ad69f0fff631da9cbd14c3de0a92d1c1f42c9bd65b0ae9cc2659f7a
+    size: 3682689
+    checksum: sha256:a677047d2800f2eb29d8187f2a7a2876d41068c4ae66500ad258dadbdbafbe9d
     name: kernel-headers
-    evr: 5.14.0-570.18.1.el9_6
-    sourcerpm: kernel-5.14.0-570.18.1.el9_6.src.rpm
+    evr: 5.14.0-570.19.1.el9_6
+    sourcerpm: kernel-5.14.0-570.19.1.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libmpc-1.2.1-4.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 66075
