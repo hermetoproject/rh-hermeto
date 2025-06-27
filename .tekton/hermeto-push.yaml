@@ -11,9 +11,9 @@ metadata:
   creationTimestamp:
   labels:
     appstudio.openshift.io/application: hermeto
-    appstudio.openshift.io/component: rh-hermeto-dd12c
+    appstudio.openshift.io/component: hermeto
     pipelines.appstudio.openshift.io/type: build
-  name: rh-hermeto-dd12c-on-push
+  name: hermeto-on-push
   namespace: rh-hermeto-tenant
 spec:
   params:
@@ -22,7 +22,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/redhat-user-workloads/rh-hermeto-tenant/rh-hermeto-dd12c:{{revision}}
+    value: quay.io/redhat-user-workloads/rh-hermeto-tenant/hermeto:{{revision}}
   - name: dockerfile
     value: Dockerfile.konflux
   - name: hermetic
@@ -601,7 +601,7 @@ spec:
     - name: netrc
       optional: true
   taskRunTemplate:
-    serviceAccountName: build-pipeline-rh-hermeto-dd12c
+    serviceAccountName: build-pipeline-hermeto
   workspaces:
   - name: git-auth
     secret:
